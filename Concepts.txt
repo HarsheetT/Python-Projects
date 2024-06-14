@@ -1,0 +1,28 @@
+### Day5 ###
+#Loops:
+
+   For Loop:
+     for item in list_of_items:
+        #Do something
+
+
+# Range() function:
+   range(a,b,stepsize)  ==> Range from a to b. Initially the stepsize is 1.Hre b is not included
+
+random.choice()
+random.shuffle()
+
+
+### Day6 ###
+
+#Functions:
+def function_name(): --> Defining the Function
+   Code
+
+function_name() --> Calling the Function
+
+#Loops:
+
+While Loop:
+while something_is_true:
+   Code
