@@ -1,10 +1,11 @@
-### Day5 ###
-#Loops:
+---------------------------------------------------------------------------------------------------
+------------------------------------Day5-----------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
+#Loops:
    For Loop:
      for item in list_of_items:
         #Do something
-
 
 # Range() function:
    range(a,b,stepsize)  ==> Range from a to b. Initially the stepsize is 1.Hre b is not included
@@ -12,17 +13,66 @@
 random.choice()
 random.shuffle()
 
+---------------------------------------------------------------------------------------------------
+------------------------------------Day6-----------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
-### Day6 ###
-
-#Functions:
-def function_name(): --> Defining the Function
+##Functions:
+   def function_name(): --> Defining the Function
    Code
 
-function_name() --> Calling the Function
+   function_name() --> Calling the Function
 
 #Loops:
+   While Loop:
+      while something_is_true:
+         Code
 
-While Loop:
-while something_is_true:
-   Code
+---------------------------------------------------------------------------------------------------
+------------------------------------Day7-----------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+#Loops
+   If/Else
+   For Loop
+   While Loop
+#Range Function
+#Lists
+#Strings
+#Modules
+
+---------------------------------------------------------------------------------------------------
+------------------------------------Day8-----------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+#Function_With_Inputs (Arguments,Parameters)
+   def my_function(input):
+      Code
+
+   my_function(123)
+
+   #Here 
+   123 => Arguments
+   input => Parameters.
+
+#Function_With_Multiple_Inputs
+   Positional Arguments:
+      def greet_with_name(name,location):
+         print(f"Hello {name}")
+         print(f"What is it like in {location}")
+      
+      greet_with_name("Jack","Mumbai")
+   
+   Positional Arguments:
+      def greet_with_name(name,location):
+         print(f"Hello {name}")
+         print(f"What is it like in {location}")
+      
+      greet_with_name("Mumbai","Jack") ==> name = Mumbai,location=Jack
+
+   Keyword Arguments
+      def greet_with_name(name,location):
+         print(f"Hello {name}")
+         print(f"What is it like in {location}")
+      
+      greet_with_name(location = "Mumbai",name = "Jack") ==> name = Jack,location = Mumbai
