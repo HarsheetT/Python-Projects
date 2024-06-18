@@ -56,6 +56,7 @@ random.shuffle()
    input => Parameters.
 
 #Function_With_Multiple_Inputs
+
    Positional Arguments:
       def greet_with_name(name,location):
          print(f"Hello {name}")
@@ -76,3 +77,10 @@ random.shuffle()
          print(f"What is it like in {location}")
       
       greet_with_name(location = "Mumbai",name = "Jack") ==> name = Jack,location = Mumbai
+
+
+---------------------------------------------------------------------------------------------------
+------------------------------------Day9-----------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+Dictionaries and Nesting Dictionaries
